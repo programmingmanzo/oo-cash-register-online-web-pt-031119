@@ -14,7 +14,7 @@ class CashRegister
     @price = price 
     @item = item 
     self.total += price * quantity
-    
+    @items << item 
     #binding.pry 
     
   end
