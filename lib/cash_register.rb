@@ -15,7 +15,7 @@ class CashRegister
     @price = price 
     @item = item 
     self.total += price * quantity
-    
+    self.last_trans = self.total 
     
     quantity.times do 
       @items << item 
