@@ -16,7 +16,7 @@ class CashRegister
     @item = item 
     
     
-    #binding.pry 
+    binding.pry 
     
   end
   
