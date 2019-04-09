@@ -19,7 +19,6 @@ class CashRegister
     
     quantity.times do 
       @items << item 
-      @last_trans += price
     end 
   end
   
