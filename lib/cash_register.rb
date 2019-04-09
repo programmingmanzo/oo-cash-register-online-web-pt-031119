@@ -16,6 +16,7 @@ class CashRegister
     @item = item 
     self.total += price * quantity
     
+    
     quantity.times do 
       @items << item 
     end 
@@ -24,7 +25,7 @@ class CashRegister
   
   def apply_discount 
     self.total -= self.discount*10
-    self.last_trans = self.total 
+    
     if self.discount > 0 
       "After the discount, the total comes to $#{self.total}."
     else 
