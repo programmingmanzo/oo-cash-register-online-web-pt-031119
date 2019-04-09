@@ -23,7 +23,3 @@ class CashRegister
   
   
 end
-
-
-add_item("eggs", 3)
-add_item("eggs", 3 , 2)
