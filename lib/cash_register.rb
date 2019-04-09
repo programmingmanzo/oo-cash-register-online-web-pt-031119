@@ -19,6 +19,7 @@ class CashRegister
     
     quantity.times do 
       @items << item 
+      @subtotal += price
     end 
   end
   
