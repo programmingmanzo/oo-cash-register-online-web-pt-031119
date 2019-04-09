@@ -36,6 +36,4 @@ class CashRegister
     self.total-= self.last_trans
   end 
   
-  
-  
 end
