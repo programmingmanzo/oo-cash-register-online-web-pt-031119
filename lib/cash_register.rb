@@ -19,10 +19,6 @@ class CashRegister
     
   end
   
-  def items 
-    @items 
-    binding.pry 
-  end 
   
   def apply_discount 
     self.total -= self.discount*10
